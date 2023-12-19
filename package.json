@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndp server.js"
   },
   "author": "Abdullah Obad",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "mongoose": "^5.13.21",
     "morgan": "^1.10.0",
     "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "ndp": "^1.0.2"
   }
 }
