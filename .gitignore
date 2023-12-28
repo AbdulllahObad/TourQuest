@@ -1,2 +1,8 @@
-# Ignore Node.js modules
+# Ignore Node.js dependencies
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Lock files
+package-lock.json
+yarn.lock
