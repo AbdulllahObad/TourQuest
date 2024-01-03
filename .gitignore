@@ -1,8 +1,5 @@
-# Ignore Node.js dependencies
 node_modules/
-npm-debug.log
-yarn-error.log
 
-# Lock files
-package-lock.json
-yarn.lock
+node_modules/lodash/_arraySampleSize.js
+node_modules/lodash/_arraySampleSize.js
+node_modules/lodash/_arraySampleSize.js
